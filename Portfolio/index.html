@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mohit | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="brand">&lt;mohit.dev /&gt;</div>
+      <div class="nav-toggle" id="navToggle">
+        <span></span><span></span><span></span>
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#intro" onclick="closeMenu()">Home</a></li>
+        <li><a href="#profile" onclick="closeMenu()">About</a></li>
+        <li><a href="#expertise" onclick="closeMenu()">Skills</a></li>
+        <li><a href="#portfolio" onclick="closeMenu()">Projects</a></li>
+        <li><a href="#reach" onclick="closeMenu()">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="intro" class="hero-section hidden">
+    <div class="hero-wrapper">
+      <span class="badge">Computer Science Student</span>
+      <h1 class="hero-title">Building Logic, Code & Ideas</h1>
+      <p class="hero-subtitle">Focused on systems programming, digital design, and modern web technologies. Based in
+        Bhilai, India.</p>
+      <a href="#reach" class="btn-main">Let's Connect</a>
+    </div>
+  </section>
+
+  <section id="profile" class="about-section hidden">
+    <div class="section-header">
+      <h2>About Me</h2>
+    </div>
+    <div class="about-content">
+      <div class="bio">
+        <p>I’m Mohit, a dedicated CS student passionate about exploring how hardware and software interact. From
+          low-level programming to data-driven insights, I enjoy solving problems with precision and creativity.</p>
+        <p>My current journey involves mastering C, digital logic, and data visualization, while continuously expanding
+          into web development and collaborative projects.</p>
+      </div>
+      <div class="info-card">
+        <div class="info-row"><strong>Location:</strong> Bhilai, India</div>
+        <div class="info-row"><strong>Education:</strong> B.Tech. AI-ML</div>
+        <div class="info-row"><strong>Focus:</strong> Systems & Web</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="expertise" class="skills-section hidden">
+    <div class="section-header">
+      <h2>Skills & Tools</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-box">
+        <div class="skill-box-header">
+          <i class="fas fa-laptop-code fa-2x"></i>
+          <h3>Programming</h3>
+        </div>
+        <ul>
+          <li>C / C++</li>
+          <li>Data Structures & Algorithms</li>
+          <li>Python Basics</li>
+        </ul>
+      </div>
+      <div class="skill-box">
+        <div class="skill-box-header">
+          <i class="fas fa-microchip fa-2x"></i>
+          <h3>Data & Logic</h3>
+        </div>
+        <ul>
+          <li>Digital Logic Circuits</li>
+          <li>R Programming</li>
+          <li>Data Analysis</li>
+        </ul>
+      </div>
+      <div class="skill-box">
+        <div class="skill-box-header">
+          <i class="fab fa-html5 fa-2x"></i>
+          <h3>Web Development</h3>
+        </div>
+        <ul>
+          <li>HTML5 / CSS3</li>
+          <li>JavaScript (ES6+)</li>
+          <li>Responsive UI Design</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="projects-section hidden">
+    <div class="section-header">
+      <h2>Projects</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-box">
+        <h3>Simple Calculator</h3>
+        <p>A basic calculator application that performs arithmetic operations such as addition, subtraction,
+          multiplication, and division with a clean interface.</p>
+        <span class="tech">JavaScript, HTML, CSS</span>
+        <a href="https://mohitraj-ai.github.io/calc-by-me/calculator.html" class="project-link">
+          View Code
+        </a>
+      </div>
+
+      <div class="project-box">
+        <h3>To‑Do List</h3>
+        <p>A task management tool that allows users to add, edit, and delete tasks, helping organize daily activities
+          efficiently.</p>
+        <span class="tech">JavaScript, DOM Manipulation</span>
+        <a href="https://mohitraj-ai.github.io/to-do-list-byme/to-dolist.html" class="project-link">
+          View Code
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="reach" class="contact-section hidden">
+    <div class="section-header">
+      <h2>Get In Touch</h2>
+    </div>
+    <div class="contact-wrapper">
+      <p>Interested in collaborating or discussing ideas? Feel free to reach out through any of the platforms below.</p>
+
+      <div class="social-links">
+        <a href="mailto:mohit.raj1@rungta.org" class="social-icon" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mohit-raj-32273237b/" target="_blank" class="social-icon"
+          aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/mohitraj-ai" target="_blank" class="social-icon" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-section">
+    <p>&copy; 2026 Mohit | Crafted with clarity & logic.</p>
+  </footer>
+  <script src=script.js></script>
+
+</body>
+
+</html>
